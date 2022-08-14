@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<h3>IMC Camilo</h3>
+
+<script type="text/javascript">
+	var pesoCamilo = prompt("Informe su peso:");
+	var alturaCamilo = prompt("Informe su altura:");
+	
+	function imprimir(texto) {
+		document.write(texto);
+	}
+
+	function calcularImc(peso, altura, nombre){
+		imc = peso/altura;
+		imprimir("El imc de " + nombre + " es... " + imc);
+	}
+
+
+	calcularImc(pesoCamilo, alturaCamilo, "Juan Carlos");
+
+	
+	
+</script>
